@@ -49,6 +49,7 @@ type Options struct {
 	HlsSegmentDuration    *int              `flag:"-hls_time"`
 	HlsMasterPlaylistName *string           `flag:"-master_pl_name"`
 	HlsSegmentFilename    *string           `flag:"-hls_segment_filename"`
+	HlsSegmentType        *string           `flag:"-hls_segment_type"`
 	HTTPMethod            *string           `flag:"-method"`
 	HTTPKeepAlive         *bool             `flag:"-multiple_requests"`
 	Hwaccel               *string           `flag:"-hwaccel"`
